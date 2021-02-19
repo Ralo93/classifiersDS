@@ -11,7 +11,7 @@ import sys
 
 
 def showMe(x):
-    data = pd.read_csv(x)
+    data = pd.read_csv(x, engine='python')
     data.head()
     missingCount = data.isnull().sum()
     print(missingCount[0:10])
