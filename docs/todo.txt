@@ -1,0 +1,1 @@
+TODOS: unpack into bash shell, have docker installed with pandas/numpy and other libraries.
