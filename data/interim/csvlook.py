@@ -11,10 +11,20 @@ import sys
 
 
 def showMe(x):
-    data = pd.read_csv(x)
-    data.head()
+
+    #setting decimal to 2
+    
+    
+    #defining missing values all kinds of na
+    missing_values = ["n/a", "na", "-", "--", "N/a", "n/A"]
+    data = pd.read_csv(x, na_values = missing_values, engine = 'python')
+    
+    #pd.set_option("display.precision", 2)
+    #setting decimal to 2
+    print(data.head())
+    print(data.info())
+
     missingCount = data.isnull().sum()
-    print(missingCount[0:10])
     
     # how many total missing values do we have?
     total_cells = np.product(data.shape)
@@ -24,6 +34,10 @@ def showMe(x):
     percent_missing = (total_missing/total_cells) * 100
     print("Percent missing: " + str(percent_missing))
 
+    print("Missing count:")
+    print(missingCount[0:10])
+
+    #data.columns
     
 if __name__ == "__main__":
 

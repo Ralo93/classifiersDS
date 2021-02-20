@@ -1,0 +1,27 @@
+VAERS_ID           0
+RECVDATE           0
+STATE            539
+AGE_YRS          597
+CAGE_YR         1281
+CAGE_MO         2938
+SEX                0
+RPT_DATE        2939
+SYMPTOM_TEXT       0
+DIED            2490
+dtype: int64
+Percent missing: 50.69925322471147
+Row count is: 2946
+VAERS_ID           0
+RECVDATE           0
+STATE            539
+AGE_YRS          597
+CAGE_YR         1281
+CAGE_MO         2938
+SEX                0
+RPT_DATE        2939
+SYMPTOM_TEXT       0
+DIED            2490
+dtype: int64
+Percent missing: after full clean50.69925322471147
+Row count after full clear is: 2946
+None
