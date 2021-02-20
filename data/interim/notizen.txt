@@ -1,0 +1,4 @@
+More functions do make: drop rows from low missing count columns, e.g. 9
+csvlook makes head, info and missing counts with %
+describe.py shows column names and #of unique values and most freq. value
+unique shows unique entries for columns
