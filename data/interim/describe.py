@@ -12,8 +12,6 @@ import missingno as msno
 
 
 def showMe(x):
-
-    
     
     data = pd.read_csv(x, engine = 'python')
     print("SHAPE:")
@@ -22,7 +20,7 @@ def showMe(x):
     print(data.columns)
     #print(data.columns)
     print("DESCRIPTION:")
-    print(data.describe(include=np.object))
+    print(data.describe(include=np.object)) #maybe ohne object?
     
 if __name__ == "__main__":
 

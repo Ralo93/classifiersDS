@@ -21,6 +21,7 @@ def showMe(x):
     
     #pd.set_option("display.precision", 2)
     #setting decimal to 2
+    #pd.option_context('display.float_format', '{:0.2f}'.format):
     print(data.head())
     print(data.info())
 
