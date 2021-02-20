@@ -19,8 +19,11 @@ def showMe(x):
     print("COLUMNS:")
     print(data.columns)
     #print(data.columns)
-    print("DESCRIPTION:")
+    print("DESCRIPTION object vars:")
     print(data.describe(include=np.object)) #maybe ohne object?
+
+    print("DESCRIPTION no-object vars:")
+    print(data.describe()) #once without objects
     
 if __name__ == "__main__":
 

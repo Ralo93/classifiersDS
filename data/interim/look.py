@@ -18,7 +18,8 @@ def showMe(x):
     #defining missing values all kinds of na
     missing_values = ["n/a", "na", "-", "--", "N/a", "n/A"]
     data = pd.read_csv(x, na_values = missing_values, engine = 'python')
-    
+
+    columns = data.shape[1]
     #pd.set_option("display.precision", 2)
     #setting decimal to 2
     #pd.option_context('display.float_format', '{:0.2f}'.format):
@@ -36,7 +37,7 @@ def showMe(x):
     print("Percent missing: " + str(percent_missing))
 
     print("Missing count:")
-    print(missingCount[0:10])
+    print(missingCount[0:columns])
 
     #data.columns
     
