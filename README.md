@@ -1,8 +1,3 @@
-data_science
-==============================
-
-A command line tracked DS project
-
 Project Organization
 ------------
 
