@@ -2,3 +2,20 @@ More functions do make: drop rows from low missing count columns, e.g. 9
 csvlook makes head, info and missing counts with %
 describe.py shows column names and #of unique values and most freq. value
 unique shows unique entries for columns
+vd data.csv für columverschieben und wieder abspeichern %% initial exploration!
+
+- Fix rename column DONE
+Data Life Cycle
+Data Science Life Cycle
+OSEMN Modell
+Data Mining Methods: Associations, Clustering, ...
+Data Cleaning also Integration and Selection before moving to EDW (enterprise data warehouses)
+
+![DiaNeu](https://user-images.githubusercontent.com/78420756/108925264-8b2c8c80-763c-11eb-8d94-02c0e188d9f8.jpg)
+flowCHart
+
+![MoremidDiagram](https://user-images.githubusercontent.com/78420756/108925333-b2835980-763c-11eb-9033-9397d4b76256.jpg)
+flowVNR
+
+![VNEDone](https://user-images.githubusercontent.com/78420756/108925416-da72bd00-763c-11eb-8901-96a9566b2554.jpg)
+vneDone

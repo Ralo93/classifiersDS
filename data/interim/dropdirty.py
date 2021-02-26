@@ -17,7 +17,7 @@ def showMe(x):
 
     rows_with_na_dropped = data.dropna(axis=0)
     print("Rows in original dataset: %d " % data.shape[0])
-    print("Rows with na's dropped: %d \n" % rows_with_na_dropped.shape[0])
+    print("Remaining Rows with na's dropped: %d \n" % rows_with_na_dropped.shape[0])
                                     
 
     # remove all columns with at least one missing value
@@ -26,7 +26,7 @@ def showMe(x):
     
     # just how much data did we lose?
     print("Columns in original dataset: %d " % data.shape[1])
-    print("Columns with na's dropped: %d \n With remaining: " % columns_with_na_dropped.shape[1])    
+    print("Remaining Columns with na's dropped: %d \n With remaining: " % columns_with_na_dropped.shape[1])    
 
     print(columns_with_na_dropped.columns)
     

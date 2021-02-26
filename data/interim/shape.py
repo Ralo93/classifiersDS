@@ -21,7 +21,7 @@ def showMe(x):
     #print(data.columns)
     print("DESCRIPTION object vars:")
     print(data.describe(include=np.object)) #maybe ohne object?
-
+#np.object
     print("DESCRIPTION no-object vars:")
     print(data.describe()) #once without objects
     
