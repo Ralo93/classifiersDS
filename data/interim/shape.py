@@ -24,6 +24,8 @@ def showMe(x):
 #np.object
     print("DESCRIPTION no-object vars:")
     print(data.describe()) #once without objects
+
+
     
 if __name__ == "__main__":
 
