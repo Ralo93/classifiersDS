@@ -7,7 +7,7 @@
 
 
 ## General info
-First simple classifiers for the titanic dataset from [kaggle](https://www.kaggle.com/hesh97/titanicdataset-traincsv)
+First simple classifiers for the [titanic dataset](https://www.kaggle.com/hesh97/titanicdataset-traincsv) from kaggle.
 I used jupyter notebooks to make myself a data exploration and data cleaning collection for future use. <br>
 
 The project organization at the bottom shows where I want to go. The next step is to make the model portable. I recommend to look inside the notebooks to see what I am doing. I trained a logistic regression classifier, a decision tree classifier (once with entropy, once with gini) and a support vector machine. <p>
