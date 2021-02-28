@@ -1,4 +1,0 @@
-My first commands: seq, grep and wc -l. creates sequences, filters and counts.
-Echo for writing with >> for appending, touch for creating and cat for reading!
-Another line added with echo
-you can add sequences of commands with | !
