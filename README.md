@@ -13,9 +13,9 @@ I used jupyter notebooks to make myself a data exploration and data cleaning col
 The project organization at the bottom shows where I want to go. The next step is to make the model portable. I recommend to look inside the notebooks to see what I am doing. I trained a logistic regression classifier, a decision tree classifier (once with entropy, once with gini) and a support vector machine. <p>
   
 The accuracy of the models so far: <br>
-Logistic Regression classifier: 83% <br>
-Decision Tree classifier: 78% <br>
-SVM: 82%
+*Logistic Regression classifier: 83% <br>
+*Decision Tree classifier: 78% <br>
+*SVM: 82%
 
 ## Sources
 Kaggle
