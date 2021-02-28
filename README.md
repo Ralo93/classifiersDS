@@ -15,7 +15,8 @@ The project organization at the bottom shows where I want to go. The next step i
 The accuracy of the models so far: <br>
 * Logistic Regression classifier: 83% <br>
 * Decision Tree classifier: 78% <br>
-* SVM: 82% <br>
+* SVM: 82% <p>
+
 Not bad, not perfect. I will update those numbers if I am able to enhace data quality further.
 
 ## Sources
