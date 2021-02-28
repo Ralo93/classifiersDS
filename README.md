@@ -7,12 +7,13 @@
 
 
 ## General info
-A Temporal Difference (TD) Learning approach (SARSA in this case) for a modelled mikroactuator, shaped like a hemisphere.
-Also, a parallel Q-Learning approach is tested and compared.
+First simple classifiers for the titanic dataset from kaggle https://www.kaggle.com/hesh97/titanicdataset-traincsv
+I used jupyter notebooks to make myself a data exploration and data cleaning collection for future use. <br>
+
+The project organization at the bottom shows where I want to go. The next step is to make the model portable. I recommend to look inside the notebooks to see what I am doing. I trained a logistic regression classifier, a decision tree classifier (once with entropy, once with gini) and a support vector machine.
 
 ## Sources
-In collaboration with University of Augsburg. <br>
-good source: https://towardsdatascience.com/td-in-reinforcement-learning-the-easy-way-f92ecfa9f3ce
+Kaggle
 
 ## Requirements
 Jupyter Notebook
@@ -21,8 +22,10 @@ Jupyter Notebook
 Jupyter Notebook, Python3, Numpy, Pandas, Seaborn, matplotlib, sklearn, Support Vector Machine, Decision Tree Classifier, Logistic Regression Classifier
 
 ## Illustrations
-<img src="https://user-images.githubusercontent.com/78420756/109026600-33376980-76c0-11eb-9154-674b188818f3.png" width="260" height="200"> <img src="https://user-images.githubusercontent.com/78420756/109413524-31b2bd80-79ae-11eb-8086-ac63b7592757.png" width="280" height="200"> <br>
-Source: Michael Olbrich Universität Augsburg
+<img src="https://user-images.githubusercontent.com/78420756/109414369-ca4b3c80-79b2-11eb-9ac1-31e2af9c03d6.PNG" width="280" height="500"> <img src="https://user-images.githubusercontent.com/78420756/109414440-3cbc1c80-79b3-11eb-8fbc-5b2228849684.PNG" width="280" height="500"> <br>
+Boxplots and histograms over some features of the titanic dataset. <br>
+<img src="https://user-images.githubusercontent.com/78420756/109414446-434a9400-79b3-11eb-9b64-ca746594cca7.PNG" width="280" height="280"> <br>
+A heatmap over all cleaned features.
 
 <img src="https://user-images.githubusercontent.com/78420756/109413719-18f6d780-79af-11eb-9b0b-b8d82debbd10.PNG" width="800" height="200"> <br>
 Left: A sinus trajectory followed by our TD Agent. Mid: The (negative) rewards collected. Right: The exploration parameter epsilon.
