@@ -28,7 +28,7 @@ Jupyter Notebook, Python3, Numpy, Pandas, Seaborn, matplotlib, sklearn, Support 
 
 ## Illustrations
 <img src="https://user-images.githubusercontent.com/78420756/109414369-ca4b3c80-79b2-11eb-9ac1-31e2af9c03d6.PNG" width="320" height="500"> <img src="https://user-images.githubusercontent.com/78420756/109414440-3cbc1c80-79b3-11eb-8fbc-5b2228849684.PNG" width="280" height="500"> <br>
-Boxplots and histograms over some features of the titanic dataset. <br>
+Boxplots and histograms over some features of the titanic dataset. <p>
 <img src="https://user-images.githubusercontent.com/78420756/109414446-434a9400-79b3-11eb-9b64-ca746594cca7.PNG" width="320" height="280"> <br>
 A heatmap over all cleaned features.
   
